@@ -1,0 +1,62 @@
+@font-face {
+    font-family: cod;
+    src: url("../fonts/CallOfOpsDuty-qAyq.ttf");
+}
+@font-face {
+    font-family: mw;
+    src: url("../fonts/ModernWarfare-OV7KP.ttf");
+}
+.land {
+    background-image: url("https://i.postimg.cc/VNHPxBvY/wallpaperflare-com-wallpaper-2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brand{
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    font-family: fantasy;
+    text-shadow: 3px 3px 3px black;
+}
+#title {
+    font-family: mw;
+    font-weight: bold;
+    color: red;
+}
+.slogan {
+    font-size: 100px;
+    font-family: cod;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+.armour {
+    background-image: url("https://i.postimg.cc/RVWw7M5q/wallpaperflare-com-wallpaper-3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#armory {
+    color: white;
+    font-weight: bold;
+    font-family: fantasy;
+    text-shadow: 3px 3px 3px black;
+}
+.card {
+    background-color: black;
+    box-shadow: 3px 3px 3px 4px black;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+#prodimg {
+    filter: drop-shadow(0px 0px 1.5rem white);
+}
+#name {
+    font-size: large;
+    font-weight: bold;
+}
+#desc {
+    font-size: medium;
+    font-weight: bold;
+}
