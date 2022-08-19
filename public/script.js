@@ -1,6 +1,6 @@
 let weapons = [];
 const weaponContainer = document.getElementById("weapons");
-fetch("http://localhost:8080/weapons")
+fetch("https://gun-armory-api.herokuapp.com/weapons")
   .then((res) => res.json())
   .then((data) => {
     weapons = data;
